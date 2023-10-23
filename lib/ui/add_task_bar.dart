@@ -356,6 +356,6 @@ class _AddTaskPageState extends State<AddTaskPage> {
             .format(_selectedDate.add(const Duration(days: 152))),
       ),
     );
-    print("my id is" + " $value");
+    print("my id is $value");
   }
 }

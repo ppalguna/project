@@ -182,6 +182,8 @@ class _dataDiagramState extends State<dataDiagram> {
                               0, int.parse(data.pakanBulanan.substring(0, 2))));
                         },
                         yValueMapper: (data, _) => data.jumlahPakanBulan,
+                        dataLabelSettings:
+                            const DataLabelSettings(isVisible: true),
                       ),
                     ],
                   );

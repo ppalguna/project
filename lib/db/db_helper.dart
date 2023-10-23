@@ -26,7 +26,7 @@ class DBHelper{
       return;
     }
     try{
-      String path = await getDatabasesPath()+ 'tasks.db';
+      String path = '${await getDatabasesPath()}tasks.db';
       print('========= databasePath : $path');
       Directory? externalStoragePath= await getExternalStorageDirectory();
       print('========= externalStoragePath : $externalStoragePath');
