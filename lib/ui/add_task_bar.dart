@@ -153,18 +153,17 @@ class _AddTaskPageState extends State<AddTaskPage> {
               const SizedBox(
                 height: 18,
               ),
-               SizedBox(
-                height: MediaQuery.of(context).size.height/50,
+              SizedBox(
+                height: MediaQuery.of(context).size.height / 50,
               ),
               _colorPallete(),
-                
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                SizedBox(
-                width: MediaQuery.of(context).size.width/1,
-               ),
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width / 1,
+                  ),
                   MyBotton(label: "Simpan", onTap: () => _validateDate())
                 ],
               ),
